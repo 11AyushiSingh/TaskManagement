@@ -67,7 +67,6 @@ function AddTask({ fetchTasks }) {
                         />
                         <input 
                             type="file" 
-                            accept=".jpg,.png,.pdf" 
                             onChange={(e) => setFile_upload(e.target.files[0])} 
                         />
                         <Button 

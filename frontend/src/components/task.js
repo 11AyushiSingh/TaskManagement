@@ -101,7 +101,6 @@ function Task({ id, title, description, status, fileUpload, deleteTask, fetchTas
                 />
                 <input
                   type="file"
-                  accept=".jpg,.png,.pdf,"
                   onChange={handleFileChange}
                 />
                 <Button color="primary" variant="contained" onClick={handleUpdate}>Update</Button>
